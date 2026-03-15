@@ -3,8 +3,8 @@ import './globals.css'
 import { ThemeProvider } from 'next-themes'
 
 export const metadata = {
-    description: 'A blank template using Payload in a Next.js app.',
-    title: 'Payload Blank Template',
+    description: 'Blog website build with Payload CMS and Next.js by dffanrf',
+    title: 'daffanrf blog',
 }
 
 export default async function RootLayout(props: { children: React.ReactNode }) {
