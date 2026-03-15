@@ -5,9 +5,9 @@ import { Footer } from './blog/_components/home/Footer'
 export default async function HomePage({
   searchParams,
 }: {
-  searchParams: { page?: string }
+  searchParams?: { page?: string }
 }) {
-  const page = Number(searchParams.page ?? 1)
+  const page = Number(searchParams?.page ?? 1)
 
   return (
     <main className="min-h-screen bg-black text-white">
